@@ -1,0 +1,42 @@
+.background{
+    height: 500px;
+    background: url(img/fond.jpg) round;
+}
+
+.background-resto{
+    height: 700px;
+}
+
+.title{
+    padding: 5%;
+    color: #000000;
+}
+
+.adress{
+    padding-left: 8%;
+}
+
+.boutton{
+    margin-left: 15px;
+}
+
+.social{
+    display: block;
+}
+
+.listSocial{
+    display: flex;
+}
+
+.flex{
+    flex: 1;
+}
+
+footer{
+    background-color: gray;
+}
+
+.carte{
+    display: grid;
+    padding-left: 5%;
+}
