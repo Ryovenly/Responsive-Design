@@ -4,7 +4,7 @@
 }
 
 .background-resto{
-    height: 700px;
+    padding-bottom: 10%;
 }
 
 .title{
@@ -38,5 +38,21 @@ footer{
 
 .carte{
     display: grid;
-    padding-left: 5%;
+    margin: auto;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 850px)
+
+{
+
+    .d-flex{
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .carte{
+        margin-bottom: 10%;
+    }
 }
